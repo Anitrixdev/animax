@@ -204,7 +204,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                   Align(
                     alignment: AlignmentDirectional(0, -0.28),
                     child: Padding(
-                      padding: EdgeInsetsDirectional.fromSTEB(16, 86, 16, 0),
+                      padding: EdgeInsetsDirectional.fromSTEB(0, 86, 16, 0),
                       child: SingleChildScrollView(
                         scrollDirection: Axis.horizontal,
                         child: Row(
