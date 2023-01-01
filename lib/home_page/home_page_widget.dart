@@ -108,7 +108,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                     ),
                   ),
                   Align(
-                    alignment: AlignmentDirectional(0, -0.5),
+                    alignment: AlignmentDirectional(0, -0.45),
                     child: Padding(
                       padding: EdgeInsetsDirectional.fromSTEB(16, 0, 16, 0),
                       child: Row(
@@ -131,7 +131,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                     ),
                   ),
                   Align(
-                    alignment: AlignmentDirectional(0, -0.44),
+                    alignment: AlignmentDirectional(0, -0.4),
                     child: Padding(
                       padding: EdgeInsetsDirectional.fromSTEB(16, 0, 16, 0),
                       child: Row(
