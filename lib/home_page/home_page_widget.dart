@@ -204,7 +204,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                   Align(
                     alignment: AlignmentDirectional(0, -0.28),
                     child: Padding(
-                      padding: EdgeInsetsDirectional.fromSTEB(16, 36, 16, 0),
+                      padding: EdgeInsetsDirectional.fromSTEB(16, 86, 16, 0),
                       child: SingleChildScrollView(
                         scrollDirection: Axis.horizontal,
                         child: Row(
@@ -318,18 +318,6 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                       ),
                                     ),
                                   ],
-                                ),
-                              ),
-                            ),
-                            Padding(
-                              padding:
-                                  EdgeInsetsDirectional.fromSTEB(0, 0, 8, 0),
-                              child: Container(
-                                width: 80,
-                                height: 80,
-                                decoration: BoxDecoration(
-                                  color: Color(0xFF0F0303),
-                                  shape: BoxShape.circle,
                                 ),
                               ),
                             ),
