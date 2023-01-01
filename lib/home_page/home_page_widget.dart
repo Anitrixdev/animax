@@ -3,6 +3,7 @@ import '../flutter_flow/flutter_flow_util.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart'
     as smooth_page_indicator;
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class HomePageWidget extends StatefulWidget {
@@ -153,8 +154,8 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                           Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(0, 0, 5, 0),
-                            child: Image.asset(
-                              'assets/images/black-circle.png',
+                            child: SvgPicture.asset(
+                              'assets/images/Ellipse_1.svg',
                               width: 5,
                               height: 5,
                               fit: BoxFit.cover,
@@ -176,8 +177,8 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                           Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(0, 0, 5, 0),
-                            child: Image.asset(
-                              'assets/images/black-circle.png',
+                            child: SvgPicture.asset(
+                              'assets/images/Ellipse_1.svg',
                               width: 5,
                               height: 5,
                               fit: BoxFit.cover,
