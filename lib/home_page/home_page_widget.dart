@@ -51,10 +51,19 @@ class _HomePageWidgetState extends State<HomePageWidget> {
               padding: EdgeInsetsDirectional.fromSTEB(16, 35, 16, 0),
               child: Row(
                 mainAxisSize: MainAxisSize.max,
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
                     'Ultimos Adicionados',
                     style: FlutterFlowTheme.of(context).bodyText1,
+                  ),
+                  Text(
+                    'Ver Todos',
+                    style: FlutterFlowTheme.of(context).bodyText1.override(
+                          fontFamily: 'Poppins',
+                          fontSize: 12,
+                          fontWeight: FontWeight.w300,
+                        ),
                   ),
                 ],
               ),
