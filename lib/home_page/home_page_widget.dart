@@ -38,7 +38,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                 children: [
                   Container(
                     width: 497.5,
-                    height: 332.5,
+                    height: 234.5,
                     decoration: BoxDecoration(
                       color: FlutterFlowTheme.of(context).secondaryBackground,
                     ),
@@ -53,19 +53,19 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             scrollDirection: Axis.horizontal,
                             children: [
                               Image.network(
-                                'https://picsum.photos/seed/355/600',
+                                'https://image.tmdb.org/t/p/original/aQOWnw3HydsCQZ10O0wvxFOaWc3.jpg',
                                 width: 100,
                                 height: 100,
                                 fit: BoxFit.cover,
                               ),
                               Image.network(
-                                'https://picsum.photos/seed/425/600',
+                                'https://image.tmdb.org/t/p/original/iHSwvRVsRyxpX7FE7GbviaDvgGZ.jpg',
                                 width: 100,
-                                height: 100,
+                                height: 52.4,
                                 fit: BoxFit.cover,
                               ),
                               Image.network(
-                                'https://picsum.photos/seed/278/600',
+                                'https://image.tmdb.org/t/p/original/53BC9F2tpZnsGno2cLhzvGprDYS.jpg',
                                 width: 100,
                                 height: 100,
                                 fit: BoxFit.cover,
