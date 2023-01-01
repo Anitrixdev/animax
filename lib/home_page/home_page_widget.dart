@@ -116,12 +116,15 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                         children: [
                           Text(
                             'Medieval',
-                            style:
-                                FlutterFlowTheme.of(context).bodyText1.override(
-                                      fontFamily: 'Poppins',
-                                      fontSize: 18,
-                                      fontWeight: FontWeight.w500,
-                                    ),
+                            style: FlutterFlowTheme.of(context)
+                                .bodyText1
+                                .override(
+                                  fontFamily: 'Poppins',
+                                  color:
+                                      FlutterFlowTheme.of(context).primaryText,
+                                  fontSize: 18,
+                                  fontWeight: FontWeight.w500,
+                                ),
                           ),
                         ],
                       ),
@@ -142,6 +145,8 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                   .bodyText1
                                   .override(
                                     fontFamily: 'Poppins',
+                                    color: FlutterFlowTheme.of(context)
+                                        .primaryText,
                                     fontSize: 10,
                                   ),
                             ),
@@ -163,6 +168,8 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                   .bodyText1
                                   .override(
                                     fontFamily: 'Poppins',
+                                    color: FlutterFlowTheme.of(context)
+                                        .primaryText,
                                     fontSize: 10,
                                   ),
                             ),
@@ -184,6 +191,8 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                   .bodyText1
                                   .override(
                                     fontFamily: 'Poppins',
+                                    color: FlutterFlowTheme.of(context)
+                                        .primaryText,
                                     fontSize: 10,
                                   ),
                             ),
