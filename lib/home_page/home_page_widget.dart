@@ -38,7 +38,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                 children: [
                   Container(
                     width: 497.5,
-                    height: 254.1,
+                    height: 303.1,
                     decoration: BoxDecoration(
                       color: FlutterFlowTheme.of(context).secondaryBackground,
                     ),
@@ -73,7 +73,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             ],
                           ),
                           Align(
-                            alignment: AlignmentDirectional(-0.95, 1),
+                            alignment: AlignmentDirectional(-0.9, 1),
                             child: Padding(
                               padding:
                                   EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
@@ -102,6 +102,26 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                 ),
                               ),
                             ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                  Align(
+                    alignment: AlignmentDirectional(0, -0.45),
+                    child: Padding(
+                      padding: EdgeInsetsDirectional.fromSTEB(16, 0, 16, 0),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.max,
+                        children: [
+                          Text(
+                            'Medieval',
+                            style:
+                                FlutterFlowTheme.of(context).bodyText1.override(
+                                      fontFamily: 'Poppins',
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.w500,
+                                    ),
                           ),
                         ],
                       ),
