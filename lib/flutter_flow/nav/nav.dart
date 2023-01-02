@@ -29,17 +29,40 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
       initialLocation: '/',
       debugLogDiagnostics: true,
       refreshListenable: appStateNotifier,
-      errorBuilder: (context, _) => HomePageWidget(),
+      errorBuilder: (context, _) => NavBarPage(),
       routes: [
         FFRoute(
           name: '_initialize',
           path: '/',
-          builder: (context, _) => HomePageWidget(),
+          builder: (context, _) => NavBarPage(),
           routes: [
             FFRoute(
               name: 'HomePage',
               path: 'homePage',
-              builder: (context, params) => HomePageWidget(),
+              builder: (context, params) => params.isEmpty
+                  ? NavBarPage(initialPage: 'HomePage')
+                  : HomePageWidget(),
+            ),
+            FFRoute(
+              name: 'Search',
+              path: 'search',
+              builder: (context, params) => params.isEmpty
+                  ? NavBarPage(initialPage: 'Search')
+                  : SearchWidget(),
+            ),
+            FFRoute(
+              name: 'WatchList',
+              path: 'watchList',
+              builder: (context, params) => params.isEmpty
+                  ? NavBarPage(initialPage: 'WatchList')
+                  : WatchListWidget(),
+            ),
+            FFRoute(
+              name: 'profile',
+              path: 'profile',
+              builder: (context, params) => params.isEmpty
+                  ? NavBarPage(initialPage: 'profile')
+                  : ProfileWidget(),
             )
           ].map((r) => r.toRoute(appStateNotifier)).toList(),
         ).toRoute(appStateNotifier),

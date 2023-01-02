@@ -64,7 +64,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                     Text(
                       'Ver Todos',
                       style: FlutterFlowTheme.of(context).bodyText1.override(
-                            fontFamily: 'Poppins',
+                            fontFamily: 'Montserrat',
                             fontSize: 12,
                             fontWeight: FontWeight.w300,
                           ),
@@ -327,7 +327,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                     Text(
                       'Ver Todos',
                       style: FlutterFlowTheme.of(context).bodyText1.override(
-                            fontFamily: 'Poppins',
+                            fontFamily: 'Montserrat',
                             fontSize: 12,
                             fontWeight: FontWeight.w300,
                           ),
