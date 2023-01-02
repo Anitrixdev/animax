@@ -133,8 +133,8 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                     Padding(
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           0, 0, 10, 0),
-                                      child: Image.network(
-                                        '',
+                                      child: Image.asset(
+                                        'assets/images/Ellipse_1.png',
                                         width: 5,
                                         height: 5,
                                         fit: BoxFit.cover,
