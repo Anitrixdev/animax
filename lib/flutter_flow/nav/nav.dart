@@ -63,6 +63,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               builder: (context, params) => params.isEmpty
                   ? NavBarPage(initialPage: 'profile')
                   : ProfileWidget(),
+            ),
+            FFRoute(
+              name: 'MediaInfoPage',
+              path: 'mediaInfoPage',
+              builder: (context, params) => MediaInfoPageWidget(),
             )
           ].map((r) => r.toRoute(appStateNotifier)).toList(),
         ).toRoute(appStateNotifier),
