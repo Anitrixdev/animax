@@ -68,10 +68,15 @@ class _MediaInfoPageWidgetState extends State<MediaInfoPageWidget> {
                         color: FlutterFlowTheme.of(context).primaryBackground,
                         shape: BoxShape.circle,
                       ),
-                      child: Icon(
-                        Icons.close,
-                        color: Colors.white,
-                        size: 24,
+                      child: InkWell(
+                        onTap: () async {
+                          context.pop();
+                        },
+                        child: Icon(
+                          Icons.close,
+                          color: Colors.white,
+                          size: 24,
+                        ),
                       ),
                     ),
                   ),
@@ -134,28 +139,28 @@ class _MediaInfoPageWidgetState extends State<MediaInfoPageWidget> {
                     child: Icon(
                       Icons.star_sharp,
                       color: Colors.white,
-                      size: 24,
+                      size: 14,
                     ),
                   ),
                   Icon(
                     Icons.star_sharp,
                     color: Color(0xFFFBFBFB),
-                    size: 24,
+                    size: 14,
                   ),
                   Icon(
                     Icons.star_sharp,
                     color: Color(0xFFFBFBFB),
-                    size: 24,
+                    size: 14,
                   ),
                   Icon(
                     Icons.star_sharp,
                     color: Color(0xFFFBFBFB),
-                    size: 24,
+                    size: 14,
                   ),
                   Icon(
                     Icons.star_outline,
                     color: Colors.white,
-                    size: 24,
+                    size: 14,
                   ),
                 ],
               ),
